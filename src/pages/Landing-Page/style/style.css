@@ -76,6 +76,19 @@ nav{
     border: 1px solid #005387;
 }
 
+/* ABOUT SECTION */
+.about-section{
+    height: 600px;
+    background-color: #E9D0BA;
+    position: relative;
+    z-index: -2;
+}
+
+.about-text{
+    z-index: 1;
+    margin-bottom: 32px;
+}
+
 /* VECTOR */
 .vector1{
     position: absolute;
@@ -92,6 +105,23 @@ nav{
     top: 550px;
     width: 250px;
 }
+
+.vector3{
+    position: absolute;
+    width: 85px;
+    right: 40%;
+    top: 180px;
+    z-index: -1;
+}
+
+.vector4{
+    position: absolute;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 @media screen and (max-width: 768px){
     .navbar-nav .nav-item .sign-up, 
     .navbar-nav .nav-item .sign-in{
@@ -99,7 +129,9 @@ nav{
     }
 
     .vector1,
-    .vector2{
+    .vector2,
+    .vector3,
+    .vector4{
         display: none;
     }
 
