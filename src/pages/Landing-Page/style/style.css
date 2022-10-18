@@ -54,9 +54,66 @@ nav{
     border-radius: 8px;
 }
 
+/* HERO SECTION */
+.hero-section{
+    height: 600px;
+}
+
+.col-md-6 .btn-hero{
+    padding: 10px 24px;
+    background-color: #005387;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+}
+
+.btn-hero:hover{
+    background-color: #fff;
+    color: #005387;
+    border: 1px solid #005387;
+}
+
+/* VECTOR */
+.vector1{
+    position: absolute;
+    z-index: -2;
+    top: 130px;
+    left: -20px;
+    width: 100px;
+}
+
+.vector2{
+    position: absolute;
+    z-index: -2;
+    left: -50px;
+    top: 550px;
+    width: 250px;
+}
 @media screen and (max-width: 768px){
     .navbar-nav .nav-item .sign-up, 
     .navbar-nav .nav-item .sign-in{
         display: inline-block;
+    }
+
+    .vector1,
+    .vector2{
+        display: none;
+    }
+
+    .hero-section-text{
+        order: 2;
+    }
+
+    .hero-section-img{
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .hero-section .container .row{
+        margin-bottom: 50px;
     }
 }
