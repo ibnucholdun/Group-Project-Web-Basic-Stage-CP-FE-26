@@ -1,6 +1,6 @@
 const templateCard = (template) => {
     return `
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="swiper-slide">
         <div class="card" style="width: 20rem;">
             <img src="${template.image}" class="card-img-top p-2 card-image" alt="${template.title}">
             <div class="card-body">
@@ -10,12 +10,13 @@ const templateCard = (template) => {
                 <a href="#" class="btn btn-primary btn-card">Selengkapnya</a>
             </div>
         </div>
-        </div>`
+        </div>
+        `
 }
 
 const templateCardInstructur = (template) => {
     return `
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="swiper-slide">
         <div class="card" style="width: 20rem; height: 350px;">
             <img src="${template.image}" class="card-img-top img-instructur pt-3 mx-auto d-block rounded-circle" alt="...">
             <div class="card-body">
