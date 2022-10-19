@@ -1,4 +1,4 @@
-import templateCard from "../scripts/templatecard.js";
+import {templateCard} from "../scripts/templatecard.js";
 
 const API_URL = "https://634e1a17b8ce95a1dd7e9aa0.mockapi.io/moduls";
 const modulContainer = document.querySelector('.modul-container');
