@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row border shadow">
+                    <div class="col-md-6 left">
+                        <h2 class="text-center pw-semibold mt-4" style="font-size: 36px; color: #E9D0BA;">Halo... Sobat Seni</h2>
+                        <p class="text-center pw-light" style="font-size: 16px">Isi data dirimu dengan melengkapi form ini untuk bergabung bersama kami</p>
+                        <img src="../../../assets/images/gambar3.png" alt="" class="img-fluid mx-auto d-block" width="350">
+                    </div>
+                    <div class="col-md-6 right">
+                        <h2 class="text-center pw-semibold mt-4" style="font-size: 32px;">Sign Up</h2>
+                        <form action="index.html" method="post" class="mx-3">
+                            <div class="mb-3">
+                                <label for="nama-depan" class="form-label mb-0">Nama Depan</label>
+                                <input type="text" class="form-control" id="nama-depan" name="nama-depan" placeholder="Masukkan Nama Depan">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nama-belakang" class="form-label mb-0">Nama Belakang</label>
+                                <input type="text" class="form-control" id="nama-belakang" name="nama-belakang" placeholder="Masukkan Nama Belakang">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label mb-0">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label mb-0">Katasandi</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan Katasandi">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password2" class="form-label mb-0">Konfirmasi Katasandi</label>
+                                <input type="password" class="form-control" id="password2" name="password2" placeholder="Konfirmasi Katasandi">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-sign-up">Sign Up</button>
+                            <p class="text-center mt-2">Sudah punya akun? <a href="login.html">Sign In</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./scripts/signup.js"></script>
+</body>
+</html>
