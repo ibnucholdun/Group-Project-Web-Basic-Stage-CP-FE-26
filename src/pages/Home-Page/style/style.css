@@ -86,6 +86,26 @@ nav{
     border: 1px solid #005387;
 }
 
+
+/* INSTRUKTUR SECTION */
+.instructur-section{
+    height: 700px;
+    background-color: #E9D0BA;
+}
+
+.instructur-text{
+    margin: 100px 0 50px;
+}
+
+.card .img-instructur{
+    width: 100px;
+    height: 110px;
+}
+
+.card .card-description{
+    font-size: 12px;
+}
+
 /*VECTOR */
 .vector1{
     position: absolute;
@@ -103,6 +123,12 @@ nav{
     width: 550px;
     height: 450px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){ 
     .navbar-nav .nav-item .logout{
