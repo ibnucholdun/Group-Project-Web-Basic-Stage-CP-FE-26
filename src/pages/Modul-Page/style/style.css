@@ -53,3 +53,67 @@ nav{
     padding: 50px 0;
     height: 300px;
 }
+
+/* LIST CLASS SECTION */
+.filter-side .filter{
+    background-color: #FDF5E8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filter .btn-filter{
+    background-color: #005387;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.filter .btn-filter:hover{
+    background-color: #fff;
+    color: #005387;
+    border: 1px solid #005387;
+}
+
+.card .card-text{
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.card .text-end{
+    font-size: 12px;
+}
+
+.card .card-image{
+    height: 150px;
+}
+
+.card .btn-card{
+    background-color: #005387;
+    color: #fff;
+    border: none;
+}
+
+.card .btn-card:hover{
+    background-color: #fff;
+    color: #005387;
+    border: 1px solid #005387;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-nav .nav-item .logout{
+        display: inline;
+    }
+
+    .search-section{
+        height: 250px;
+    }
+
+    .filter-item .form-check{
+        display: inline-block;
+    }
+}
