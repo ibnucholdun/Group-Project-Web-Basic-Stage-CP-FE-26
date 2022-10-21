@@ -1,8 +1,8 @@
-
 const eventListener = () => {
     const buttonSignIn = document.querySelector(".btn-sign-in");
-    buttonSignIn.addEventListener("click", () => {
-        window.location.href = "src/pages/Home-Page/home.html";
+    buttonSignIn.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.location.href = "../Home-Page/home.html";
     })
 };
 
