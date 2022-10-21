@@ -1,4 +1,4 @@
-const buttonSignIn = document.getElementById("btn-sign-in");
+const buttonSignIn = document.querySelector(".btn-sign-in");
 
 const eventListener = () => {
     buttonSignIn.addEventListener("click", () => {
