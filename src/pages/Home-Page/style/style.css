@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* HEADER NAVBAR */
+nav{
+    background-color: #C7A488;
+}
+
+.nav-item .nav-link{
+    color: #fff;
+    padding: 10px 16px;
+}
+
+.nav-text:hover{
+    color: #666666;
+}
+
+.nav-text::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 3px;
+    background: #666666;
+    transition: 0.3s;
+}
+
+.nav-text:hover::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-item .logout{
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #C7A488;
+}
+
+
+/* CAROUSEL SECTION */
+.carousel-item img{
+    height: 400px;
+    width: 90%;
+}
+
+/* LIST CLASS SECTION */
+.list-class-section{
+    height: 700px;
+    position: relative;
+}
+
+.list-class-text{
+    margin: 100px 0 50px;
+}
+
+.card .card-text{
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.card .text-end{
+    font-size: 12px;
+}
+
+.card .card-image{
+    height: 150px;
+}
+
+.card .btn-card{
+    background-color: #005387;
+    color: #fff;
+    border: none;
+}
+
+.card .btn-card:hover{
+    background-color: #fff;
+    color: #005387;
+    border: 1px solid #005387;
+}
+
+
+/* INSTRUKTUR SECTION */
+.instructur-section{
+    height: 700px;
+    background-color: #E9D0BA;
+}
+
+.instructur-text{
+    margin: 100px 0 50px;
+}
+
+.card .img-instructur{
+    width: 100px;
+    height: 110px;
+}
+
+.card .card-description{
+    font-size: 12px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #C7A488;
+    color: #fff;
+}
+
+/*VECTOR */
+.vector1{
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 0;
+    width: 250px;
+}
+
+.vector2{
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    right: 0;
+    width: 550px;
+    height: 450px;
+}
+
+@media screen and (max-width: 768px){ 
+    .navbar-nav .nav-item .logout{
+        display: inline-block;
+    }
+
+    .carousel-item img{
+        height: 300px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .carousel-item img{
+        height: 200px;
+        width: 95%;
+    }
+
+    .vector1, 
+    .vector2{
+        display: none;
+    }
+}
