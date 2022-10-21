@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="../../../assets/icons/icon-serrla.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg p-2">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/assets/icons/icon-serrla.png" alt="Logo" width="50px" class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="#">Home</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="../Modul-Page/modul.html">Modul</a></li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item h5"><a class="nav-link logout fw-normal" href="/index.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class=" carousel-section m-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../../../assets/images/gambar5.png" class="d-block mx-auto rounded-5" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../../assets/images/gambar6.jpg" class="d-block mx-auto rounded-5" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../../assets/images/gambar7.jpg" class="d-block mx-auto rounded-5" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="list-class-section mx-4">
+            <div class="container">
+                <img src="./../../../assets/images/Vector3.png" alt="" class="vector1">
+                <img src="./../../../assets/images/vector4.png" alt="" class="vector2">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-between align-items-center">
+                        <h2 class="list-class-text pw-semibold h2">Modul Tersedia</h1>
+                        <a href="../Modul-Page/modul.html" class="list-class-text pw-semibold" style="color: #005386;">Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="swiper">
+                        <div class="swiper-wrapper g-5 modul-container"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instructur-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="instructur-text pw-semibold h2 text-center">Pemateri</h1>
+                    </div>
+                </div>
+                <div class="row mx-auto">
+                    <div class="swiper">
+                        <div class="swiper-wrapper g-5 instructur-container"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <img src="/assets/icons/icon-serrla.png" alt="Logo" width="70px" class="d-inline-block align-text-top">
+                    <h4 class="footer-text pw-semibold h4 py-2">Serrum Learning Art</h4>
+                    <p class="pw-light">Gali minat dan bakatmu bersama Serrla dengan pemateri yang handal di bidangnya</p>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="footer-text pw-semibold mb-3">Modul</h5>
+                    <ul class="p-0">
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">Seni Rupa</a></li>
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">Seni Musik</a></li>
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">Seni Tari</a></li>
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">Seni Teater</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="footer-text pw-semibold mb-3">Tentang Kami</h5>
+                    <ul class="p-0">
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="footer-text pw-semibold mb-3">Hubungi Kami</h5>
+                    <ul class="p-0">
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">(021) 12345678</a></li>
+                        <li class="mt-2"><a href="#" class="pw-light nav-link">info@serrla.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="footer-text pw-semibold mb-3">Sosial Media</h5>
+                    <ul class="p-0 d-flex">
+                        <li class="m-2 "><a href="#" class="pw-light nav-link"><i class="bi bi-twitter h4"></i></a></li>
+                        <li class="m-2"><a href="#" class="pw-light nav-link"><i class="bi bi-facebook h4"></i></a></li>
+                        <li class="m-2"><a href="#" class="pw-light nav-link"><i class="bi bi-instagram h4"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="text-center m-0 pb-3">Copyright © 2022 Serrla</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
