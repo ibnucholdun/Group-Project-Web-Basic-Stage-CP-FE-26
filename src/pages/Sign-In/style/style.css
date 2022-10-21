@@ -24,7 +24,7 @@ section .container{
     background-color: #fff;
 }
 
-.btn-sign-up{
+.btn-sign-in{
     background-color: #005386;
     color: white;
     border: none;
@@ -35,6 +35,6 @@ section .container{
     font-weight: medium;
 }
 
-.mx-3 .btn-sign-up:hover{
+.mx-3 .btn-sign-in:hover{
     background-color: #00416A;
 }
