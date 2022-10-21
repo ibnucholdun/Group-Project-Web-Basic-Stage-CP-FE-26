@@ -46,3 +46,10 @@ nav{
     color: #fff;
     border: 1px solid #fff;
 }
+
+/* SEARCH SECTION */
+.search-section{
+    background-color: #E9D0BA;
+    padding: 50px 0;
+    height: 300px;
+}
