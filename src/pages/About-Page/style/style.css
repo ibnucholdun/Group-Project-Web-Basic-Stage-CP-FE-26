@@ -53,3 +53,18 @@ nav{
     padding: 10px 16px;
     border-radius: 8px;
 }
+
+/* SECTION 1 */
+.section-1{
+    background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 769px){
+    .col-md-4{
+        order: 1;
+    }
+
+    .col-md-8{
+        order: 2;
+    }
+}
