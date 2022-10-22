@@ -86,6 +86,12 @@ nav{
     background-color: #F2F2F2;
 }
 
+/* FOOTER */
+.footer{
+    background-color: #C7A488;
+    color: #fff;
+}
+
 /* VECTOR */
 .vector1{
     position: absolute;
