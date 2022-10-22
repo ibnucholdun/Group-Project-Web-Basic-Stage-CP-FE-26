@@ -59,6 +59,42 @@ nav{
     background-color: #F2F2F2;
 }
 
+/* SECTION 2 */
+.section-2{
+    z-index: -4;
+}
+
+.row{
+    z-index: -3;
+}
+
+.left{
+    background-color: #E8D0BA;
+    position: relative;
+    z-index: -2;
+}
+
+.right{
+    background-color: #C7A488;
+    position: relative;
+    color: #fff;
+    z-index: -2;
+}
+
+/* VECTOR */
+.vector1{
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    z-index: -1;
+}
+
+.vector2{
+    position: absolute;
+    top: 40px;
+    left: 330px;
+    z-index: -1;
+}
 @media screen and (max-width: 769px){
     .col-md-4{
         order: 1;
@@ -66,5 +102,10 @@ nav{
 
     .col-md-8{
         order: 2;
+    }
+}
+@media screen and (max-width:1024px){
+    .vector1, .vector2{
+        display: none;
     }
 }
