@@ -17,14 +17,14 @@ const templateCard = (template) => {
 const templateCardInstructur = (template) => {
     return `
         <div class="swiper-slide">
-        <div class="card" style="width: 20rem; height: 350px;">
-            <img src="${template.image}" class="card-img-top img-instructur pt-3 mx-auto d-block rounded-circle" alt="...">
-            <div class="card-body">
-                <h5 class="card-title text-center">${template.name}</h5>
-                <p class="card-description pw-normal">${template.descript}</p>
+            <div class="card" style="width: 20rem; height: 350px;">
+                <img src="${template.image}" class="card-img-top img-instructur pt-3 mx-auto d-block rounded-circle" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">${template.name}</h5>
+                    <p class="card-description pw-normal">${template.descript}</p>
+                </div>
             </div>
-        </div>
         </div>`
 }
 
-export {templateCard, templateCardInstructur};
+export { templateCard, templateCardInstructur};
