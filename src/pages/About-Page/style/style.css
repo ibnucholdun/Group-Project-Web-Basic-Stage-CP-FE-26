@@ -81,6 +81,11 @@ nav{
     z-index: -2;
 }
 
+/* SECTION 3 */
+.section-3{
+    background-color: #F2F2F2;
+}
+
 /* VECTOR */
 .vector1{
     position: absolute;
@@ -95,6 +100,7 @@ nav{
     left: 330px;
     z-index: -1;
 }
+
 @media screen and (max-width: 769px){
     .col-md-4{
         order: 1;
@@ -104,6 +110,7 @@ nav{
         order: 2;
     }
 }
+
 @media screen and (max-width:1024px){
     .vector1, .vector2{
         display: none;
