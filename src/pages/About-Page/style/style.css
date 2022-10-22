@@ -108,11 +108,16 @@ nav{
 }
 
 @media screen and (max-width: 769px){
-    .col-md-4{
+    .navbar-nav .nav-item .sign-up, 
+    .navbar-nav .nav-item .sign-in{
+        display: inline-block;
+    }
+    
+    .section-1 .col-md-4{
         order: 1;
     }
 
-    .col-md-8{
+    .section-1 .col-md-8{
         order: 2;
     }
 }
