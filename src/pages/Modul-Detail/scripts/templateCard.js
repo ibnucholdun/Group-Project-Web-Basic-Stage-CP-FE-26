@@ -7,7 +7,7 @@ const templateCard = (template) => {
                     <h5 class="card-title">${template.title}</h5>
                     <p class="text-end fw-light">Kategori: ${template.category}</p>
                     <p class="card-text pw-normal">${template.descript}</p>
-                    <a href="./detail.html?id=${template.id}" class="btn btn-primary btn-card">Selengkapnya</a>
+                    <a href="#" class="btn btn-primary btn-card">Selengkapnya</a>
                 </div>
             </div>
         </div>
