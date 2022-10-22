@@ -81,6 +81,12 @@ main h2{
     height: 400px!important;
 }
 
+/* FOOTER */
+.footer{
+    background-color: #C7A488;
+    color: #fff;
+}
+
 @media screen and (max-width: 769px){
     .navbar-nav .nav-item .sign-up, 
     .navbar-nav .nav-item .sign-in{
