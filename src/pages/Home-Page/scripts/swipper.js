@@ -8,7 +8,6 @@ const swipper = () => {
       // Default parameters
       slidesPerView: 1,
       loop: true,
-      centeredSlides: true,
       spaceBetween: 10,
       // Responsive breakpoints
       breakpoints: {
