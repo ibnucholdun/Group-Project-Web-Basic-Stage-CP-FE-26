@@ -104,54 +104,6 @@ nav{
     border: 1px solid #005387;
 }
 
-/* DETAIL*/
-.aside-daftar{
-    background-color: #FDF5E8;
-}
-.container-daftar{
-    margin: 30px 25px;
-}
-.daftar{
-    font-weight: 600;
-    margin: 5px 0px 35px 0px;
-}
-.list-span{
-    display: inline-block;
-    padding: 10px;
-    margin-bottom: 5px;
-}
-.list-span.active{
-    display: inline-block;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 1px 3px rgb(142, 141, 141);
-}
-.detail-content{
-    padding: 30px;
-}
-.content-h3{
-    font-weight: 600;
-    margin-bottom: 40px;
-}
-
-.btn-hero{
-    padding: 10px 24px;
-    background-color: #005387;
-    color: #fff;
-    margin-top: 30px;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-}
-
-.btn-hero:hover{
-    background-color: #fff;
-    color: #005387;
-    border: 1px solid #005387;
-}
-
 /* FOOTER */
 .footer{
     background-color: #C7A488;

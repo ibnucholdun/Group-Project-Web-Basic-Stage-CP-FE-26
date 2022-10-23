@@ -1,3 +1,3 @@
-import getModul from "../scripts/getModul.js";
+import getModulDetail from "./getModulDetail.js";
 
-getModul();
+getModulDetail();
