@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modul Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="/assets/icons/icon-serrla.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="../../../assets/icons/icon-serrla.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -18,11 +18,13 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="/index.html">Home</a></li>
-                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="#">Modul</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="../../../index.html">Home</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="../About-Page/about.html">About</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="#">Contact Us</a></li>
                     </ul>
-                    <ul class="navbar-nav mt-2">
-                        <li class="nav-item h5"><a class="nav-link logout fw-normal" href="/index.html">Logout</a></li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item h5 me-3"><a class="nav-link sign-in fw-normal" href="../Sign-In/signin.html">Sign In</a></li>
+                        <li class="nav-item h5"><a class="nav-link sign-up fw-normal" href="../Sign-Up/signup.html">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,43 +32,28 @@
     </header>
 
     <main>
-        <section class="search-section">
-            <h1 class="text-center fw-semibold">Modul Yang Tersedia</h1>
-            <p class="text-center">Gali pengetahuan seni dengan mengikuti modul yang tersedia sesuai dengan minat dan bakatmu!</p>
-            <input type="text" class="form-control input-search w-50 d-block mx-auto" placeholder="Cari Modul" aria-label="Cari film" aria-describedby="button-addon2" name="search">
-        </section>
-
-        <section class="list-class-section m-5">
-            <div class="container">
-                <div class="row gx-5 mx-1">
-                    <aside class="col-lg-3 filter-side">
-                        <div class="filter">
-                            <h3 class="fw-semibold">Filter Modul</h3>
-                            <div class="filter-item">
-                                <h5 class="fw-normal">Kategori</h5>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Rupa" id="seni-rupa">
-                                    <label class="form-check-label" for="seni-rupa"> Seni Rupa </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Musik" id="seni-musik">
-                                    <label class="form-check-label" for="seni-musik"> Seni Musik </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Tari" id="seni-tari">
-                                    <label class="form-check-label" for="seni-tari"> Seni Tari </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Teater" id="seni-teater">
-                                    <label class="form-check-label" for="seni-teater"> Seni Teater </label>
-                                </div>
-                            </div>
-                            <button class="btn btn-filter mt-3">Filter</button>
-                        </div>
-                    </aside>
-                    <section class="col-lg-9 list-class-container mt-3">
-                        <div class="row list-modul g-3"></div>
-                    </section>
+        <h2 class="text-center p-5 fw-semibold">Contact Us</h2>
+        <section class="contact-us">
+            <div class="container my-5 rounded-5">
+                <div class="row p-5">
+                    <div class="col-md text-center">
+                        <h4 class="fw-semibold"><i class="bi bi-geo-alt"></i> Alamat </h4>
+                        <p class="fw-lighter">Jl. Durian Raya No. 30A, RT. 4/RW. 4 Jagakarsa, Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12620</p>
+                    </div>
+                    <div class="col-md text-center">
+                        <h4 class="fw-semibold"><i class="bi bi-telephone"></i> Telepon</h4>
+                        <p class="fw-lighter">(021) 29517702</p>
+                    </div>
+                    <div class="col-md text-center">
+                        <h4 class="fw-semibold"><i class="bi bi-envelope"></i> Email</h4>
+                        <p class="fw-lighter">info@serrla.com</p>
+                    </div>
+                </div>
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jl. Durian Raya No. 30A, RT. 4/RW. 4 Jagakarsa, Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12620  &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <a href="https://piratebay-proxys.com/">Pirate proxy</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -114,8 +101,7 @@
         </div>
         <p class="text-center m-0 pb-3">Copyright © 2022 Serrla</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script src="./scripts/index.js" type="module"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

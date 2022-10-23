@@ -18,8 +18,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="/index.html">Home</a></li>
-                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="#">Modul</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="../Home-Page/home.html">Home</a></li>
+                        <li class="nav-item h5 m-0"><a class="nav-link nav-text fw-normal" href="../Modul-Page/modul.html">Modul</a></li>
                     </ul>
                     <ul class="navbar-nav mt-2">
                         <li class="nav-item h5"><a class="nav-link logout fw-normal" href="/index.html">Logout</a></li>
@@ -30,43 +30,20 @@
     </header>
 
     <main>
-        <section class="search-section">
-            <h1 class="text-center fw-semibold">Modul Yang Tersedia</h1>
-            <p class="text-center">Gali pengetahuan seni dengan mengikuti modul yang tersedia sesuai dengan minat dan bakatmu!</p>
-            <input type="text" class="form-control input-search w-50 d-block mx-auto" placeholder="Cari Modul" aria-label="Cari film" aria-describedby="button-addon2" name="search">
-        </section>
-
-        <section class="list-class-section m-5">
-            <div class="container">
-                <div class="row gx-5 mx-1">
-                    <aside class="col-lg-3 filter-side">
-                        <div class="filter">
-                            <h3 class="fw-semibold">Filter Modul</h3>
-                            <div class="filter-item">
-                                <h5 class="fw-normal">Kategori</h5>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Rupa" id="seni-rupa">
-                                    <label class="form-check-label" for="seni-rupa"> Seni Rupa </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Musik" id="seni-musik">
-                                    <label class="form-check-label" for="seni-musik"> Seni Musik </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Tari" id="seni-tari">
-                                    <label class="form-check-label" for="seni-tari"> Seni Tari </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="Seni Teater" id="seni-teater">
-                                    <label class="form-check-label" for="seni-teater"> Seni Teater </label>
-                                </div>
-                            </div>
-                            <button class="btn btn-filter mt-3">Filter</button>
+        <section class="detail-modul">
+            <div class="container-fluid">
+                <div class="row">
+                    <aside class="p-4 aside-daftar col-md-4">
+                        <div class="container-daftar">
+                            <h3 class="daftar">Daftar Materi</h3>
+                            <ul class="list">
+                                
+                            </ul>
                         </div>
                     </aside>
-                    <section class="col-lg-9 list-class-container mt-3">
-                        <div class="row list-modul g-3"></div>
-                    </section>
+                    <div class="col-md-8" id="response">
+
+                    </div>
                 </div>
             </div>
         </section>
